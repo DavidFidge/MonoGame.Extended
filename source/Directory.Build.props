@@ -12,7 +12,7 @@
     </PropertyGroup>
 
    <ItemGroup Condition="!$(DefineConstants.Contains('FNA')) AND !$(DefineConstants.Contains('KNI'))">
-       <PackageReference Include="MonoGame.Framework.DesktopGL"
+       <PackageReference Include="MonoGame.Framework.WindowsDX"
                           Version="3.8.2.1105"
                           PrivateAssets="All" />
     </ItemGroup>
