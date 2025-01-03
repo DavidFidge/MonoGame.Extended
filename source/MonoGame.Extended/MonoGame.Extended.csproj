@@ -3,6 +3,7 @@
     <PropertyGroup>
         <Description>It makes MonoGame more awesome.</Description>
         <PackageTags>monogame extended pipeline bmfont tiled texture atlas input viewport fps shapes sprite</PackageTags>
+        <TargetFramework>net8.0-windows</TargetFramework>
     </PropertyGroup>
 
     <!-- Remove the following dependency files from view in the Solution Explorer panel -->
